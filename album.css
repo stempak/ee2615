@@ -1,0 +1,135 @@
+@font-face {
+ font-family: Marbre Sans;
+ src: url('../EE2615/fonts/Marbre_Sans.otf');
+ font-family: Baron Neue;
+ src: url('../EE2615/fonts/Baron Neue.otf'); 
+}
+
+body {
+    background-color: rgb(255, 255, 255)!important;
+}
+
+header {
+  font-weight: bold!important;
+  font-family: Marbre Sans!important;
+}
+
+.logo{
+    height: 30px;
+}
+
+.photo {
+  width: 400px;
+}
+
+.bg-primary {
+  background-color: white!important;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgb(110, 110, 110);
+}
+
+.card:hover .overlay {
+    opacity: 0.7;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 10em;
+    font-family: Baron Neue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.parallax { 
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+#one {
+  background-image: url("../EE2615/img/_MG_0967-2.jpg");
+}
+
+#two {
+  background-image: url("../EE2615/img/_MG_1143-bw.jpg");
+}
+
+#seven {
+  background-image: url("../EE2615/img/_MG_1132.jpg");
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-style: bold;
+  font-family: Baron Neue;
+  font-size: 60px;
+}
+
+.blockquote {
+  font-family: Marbre Sans!important;
+  text-align: center;
+}
+
+.blockquote-footer {
+  text-align: right!important;
+  padding-top: 1,5rem;
+  padding-bottom: 1,5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.pic-inside-horizontal {
+  height: 30%!important;
+}
+
+.pic-inside-vertical {
+  height: 10%!important;
+}
+
+ul {
+  list-style-type: circle;
+  
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
